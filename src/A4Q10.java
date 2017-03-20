@@ -105,13 +105,13 @@ public class A4Q10 extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         String firstTemp = fahrenheit.getText();
-        
+
         //string to double
         double firstDouble = Double.parseDouble(firstTemp);
-        
+
         //conversion
         double tempCelsius = (firstDouble - 32) / 1.8;
-        
+
         //display celsius
         celsius.setText("" + tempCelsius);
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -119,13 +119,13 @@ public class A4Q10 extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         String firstTemp = celsius.getText();
-        
+
         //string to double
         double firstDouble = Double.parseDouble(firstTemp);
-        
+
         //conversion
         double tempFahrenheit = firstDouble * 1.8 + 32;
-        
+
         //display celsius
         fahrenheit.setText("" + tempFahrenheit);
     }//GEN-LAST:event_jButton2ActionPerformed

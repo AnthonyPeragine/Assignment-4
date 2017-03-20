@@ -132,11 +132,11 @@ public class A4Q9 extends javax.swing.JFrame {
         //adding
         String firstText = first.getText();
         String secondText = second.getText();
-        
+
         //convert strings to ints
         int firstInt = Integer.parseInt(firstText);
         int secondInt = Integer.parseInt(secondText);
-        
+
         //calculate
         int answer = firstInt + secondInt;
         output.setText("" + answer);
@@ -146,11 +146,11 @@ public class A4Q9 extends javax.swing.JFrame {
         // TODO add your handling code here:
         String firstText = first.getText();
         String secondText = second.getText();
-        
+
         //convert strings to ints
         int firstInt = Integer.parseInt(firstText);
         int secondInt = Integer.parseInt(secondText);
-        
+
         //calculate
         int answer = firstInt - secondInt;
         output.setText("" + answer);
@@ -160,11 +160,11 @@ public class A4Q9 extends javax.swing.JFrame {
         // TODO add your handling code here:
         String firstText = first.getText();
         String secondText = second.getText();
-        
+
         //convert strings to ints
         int firstInt = Integer.parseInt(firstText);
         int secondInt = Integer.parseInt(secondText);
-        
+
         //calculate
         int answer = firstInt / secondInt;
         output.setText("" + answer);
@@ -174,11 +174,11 @@ public class A4Q9 extends javax.swing.JFrame {
         // TODO add your handling code here:
         String firstText = first.getText();
         String secondText = second.getText();
-        
+
         //convert strings to ints
         int firstInt = Integer.parseInt(firstText);
         int secondInt = Integer.parseInt(secondText);
-        
+
         //calculate
         int answer = firstInt * secondInt;
         output.setText("" + answer);
